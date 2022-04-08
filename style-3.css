@@ -1,0 +1,96 @@
+.goole {
+    background-color: #333333;
+    color: white;
+    font-family: yekan;
+    padding: 11px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 13px;
+    float: left;
+}
+.email {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.email-input {
+    margin-top: 80px;
+
+}
+.email-input input {
+    height: 55px;
+    border-radius: 20px;
+    border-bottom-right-radius:20px ;
+}
+.email-btn {
+    font-family: yekan;border-radius: 20px;background-color: #88d85e;font-size: 12px;padding: 10px;
+
+}
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.footer {
+    width: 100%;
+    height: auto;
+    background-color:#e3e3e3;
+    padding-top: 3vw;
+    padding-right: 4vw;
+    margin-right: 6vw;
+}
+.footer ul {
+    margin-top: -1vw;
+    width: 100%;
+}
+.footer ul li {
+    padding: 0.5vw;
+}
+.pic-list-footer img {
+    width: 12%;
+}
+.line-footer {
+    height: 1px;
+    background-color:#d7d7d7;
+    width: 100%;
+}
+.footer-t-i {
+    margin-top: -1.5vw;
+    margin-right: -5vw;
+}
+.top-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;!important;
+}
+.last-footer {
+    height: auto;
+    background-color: #95999c;
+    width: auto;
+}
+.button-bott {
+margin-right: -25px;
+}
+.button-bott button{
+    border-radius: 50%;
+    background-color: #6a6a6a;
+}
+/**********************
+------utilies---------
+ ***********************/
+.text-grey {
+    color: #95999c ;
+}
+.footer-style{
+    border-right: black 4px solid;
+    line-height: 5px;
+    padding-right: 5px;
+
+}
+.list-unstyled img {
+    width: 12px;
+}

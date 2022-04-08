@@ -1,0 +1,81 @@
+.flesh-vitreen i:hover , .flesh-vitreen i:active , .flesh-vitreen i:checked {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.num-3{
+    text-align: right;
+    margin-top: 50px;
+}
+.num-3 h5{
+    border-right: 3px solid black;
+    padding-right: 10px;
+    display: inline;
+}
+.dd-mhasoolat ul li a {
+    color: black;
+    text-align: right;
+    line-height: 20px;
+    display: block;
+
+}
+.dd-mhasoolat ul li {
+    margin-left: 150px;
+    width: 90px;
+    padding: 10px;
+}
+.toosi {
+    color: grey;
+}
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    float: right;
+    margin-top: -20px;
+    margin-right: 170px;
+    border-radius: 10px;
+}
+.btn-mahsoolat button {
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+}
+.btn-mahsoolat button :hover ,.btn-mahsoolat button :checked , .btn-mahsoolat button :active {
+    background-color: red;
+}
+.mahsoolat a {
+    float:left;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding:5px;
+}
+.btn-efect a:hover ,.btn-efect a:active ,.btn-efect a:checked {
+    background-color: black;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.btn-porf a{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.image-tak {
+    background-image: url("image/sofa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 282px;
+
+
+}
+.blog {
+    border: none;
+}

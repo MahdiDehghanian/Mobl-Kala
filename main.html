@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="÷2https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" dir="rtl">
+    <title>Mobikalal</title>
+    <script src="https://kit.fontawesome.com/6af1dd6419.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style-2.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" />
+    <link rel="stylesheet" href="style-3.css">
+
+</head>
+<body>
+<div class="container-fluid px-0">
+    <!-----------------nav----------->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-light">
+        <ul class="navbar-nav " style="float: left">
+            <li class="nav-item  text-light">
+                <a class="nav-link" href="#">به سایت ما خوشامدید <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item text-light">
+                <a class="nav-link" href="#"><img src="image/user.svg" alt="">ورود / ثبت نام <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </nav>
+    <!-----------------top----------->
+    <section>
+        <div class="row search" dir="rtl" style="width: 95%">
+            <div class="col-12 col-sm-12 col-md-3 pt-5" style="margin-left: -60px">
+                <div class="container mr-5">
+                    <p style="float: right;font-family: yekan;color: #95999c;">
+                        سبد خرید
+                        <br>
+                        <a style="font-family: tani;font-size: large;color: black">
+                            300.000
+                        </a>
+                    </p>
+                    <img src="image/shopping-cart.svg" alt="" style="width: 30px;float: right;padding-right: 5px ;margin-left: 55px;margin-top: 15px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 pt-5">
+                <form class="form-inline">
+                    <div class="input-group w-100">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-default bg-danger" style="border-bottom-right-radius: 10px;border-top-right-radius:10px " data-toggle="dropdown">
+                                <span class="p-4" ><i class="fas fa-search"></i></span> <span class="caret"></span>
+                            </button>
+                            <!--                            <span class="input-group-text bg-danger" style="width: 50px;padding: 15px"></span>-->
+                        </div>
+                        <input type="text" class="form-control p-4" placeholder="جستجو" aria-label="Username" aria-describedby="basic-addon1">
+                        <div class="input-group-prepend prep-search" >
+                            <button type="button" dir="rtl" class="btn btn-default dropdown-toggle bg-white border-top border-left border-bottom" style="border-bottom-left-radius: 10px;border-top-left-radius:10px " data-toggle="dropdown">
+                                <span id="search_concept"  class="border-right pr-2 toosi" >دستبندی ها</span> <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" style="text-align: right"   role="menu">
+                                <li class="dropdown-item bg-light toosi mt-n2"> <a class="text-dark" href="#">دسته بندی</a></li>
+                                <li><a class="toosi"href="#contains">مورد</a></li>
+                                <li><a class="toosi" href="#its_equal">مورد</a></li>
+                                <li><a class="toosi" href="#greather_than">مرود</a></li>
+                                <li class="divider"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-sm-12 col-md-2 pt-5">
+                <img src="image/digi.jpg" alt="" style="width: 100%;margin-top: -23px">
+            </div>
+        </div>
+    </section>
+    <!-----------------top-carousell----------->
+    <section>
+        <div class="container-fluid px-0">
+            <div class="container-fluid bg-danger mt-3">
+                <nav class=" navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light" id="top" style="padding-top: 25px;padding-bottom: 25px">
+                    <ul class="navbar-nav mb-1 mb-lg-0 navtext navul">
+                        <li class="nav-item pr-3">
+                            <a class="nav-link text-white" aria-current="page" href="#">صفحه اصلی</a>
+                        </li>
+                        <li class="nav-item dropdown pr-3 dd-mhasoolat">
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-default bg-danger dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="pr-2 text-white" >محصولات</span> <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right" role="menu"  aria-labelledby="dropdownMenuButton">
+                                    <li>
+                                        <a href="#contains" style="margin-top: 50px">
+                                            <h6 style="width: 75px">دسته بندی</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div style="width: 50px;height: 3px;background-color: red;margin-top: -20px">
+                                        </div>
+                                    </li>
+                                    <li><a href="#contains" style="color: grey">مورد</a></li>
+                                    <li><a href="#its_equal" style="color: grey" >مورد</a></li>
+                                    <li><a href="#greather_than" style="color: grey">مرود</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a class="nav-link text-white" href="#" aria-disabled="true">تخفیف ها و پیشنهادات</a>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a class="nav-link text-white" href="#" aria-disabled="true">درباره ی ما </a>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a class="nav-link text-white " href="#">تماس با ما</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/decor.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block d-md-block ax-top">
+                            <h1 class="animated flipInX" style="font-size: 4vw">بهتریت کیفیت را از ما بخواهید</h1>
+                            <p class="toosi animated bounceInUp" style="font-size: 2vw" >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+                            <button type="button" class="btn btn-default bg-danger text-white animated bounceInRight" style="font-size: 1.7vw">همین حالا خرید کنید
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/decor.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block d-md-block ax-top">
+                            <h1 class="animated flipInX" style="font-size: 4vw">بهتریت کیفیت را از ما بخواهید</h1>
+                            <p class="toosi animated bounceInUp" style="font-size: 2vw" >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+                            <button type="button" class="btn btn-default bg-danger text-white animated bounceInRight" style="font-size: 1.7vw">همین حالا خرید کنید
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/decor.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block d-md-block ax-top">
+                            <h1 class="animated flipInX" style="font-size: 4vw">بهتریت کیفیت را از ما بخواهید</h1>
+                            <p class="toosi animated bounceInUp" style="font-size: 2vw" >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+                            <button type="button" class="btn btn-default bg-danger text-white animated bounceInRight" style="font-size: 1.7vw">همین حالا خرید کنید
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-icon">
+                    <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </div>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="num-3 whole-body">
+        <!-- ----------------------------------vitreen----------------------- -->
+        <div class="container px-0">
+            <div>
+                <h5 style="display: inline">
+                    <strong>
+                        ویترین
+                    </strong>
+                </h5>
+            </div>
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class="carousel slide carousel-multi-item flesh-vitreen" data-ride="carousel">
+                <!--Controls-->
+                <div class="controls-top float-left" style="margin-top: -23px; margin-left: 10px;">
+                    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i style="color: black;font-size: 30px" class="fas fa-arrow-circle-left"></i></a>
+                    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i style="color: black;font-size: 30px " class="fas fa-arrow-circle-right"></i></a>
+                </div>
+                <!--/.Controls-->
+                <!--Slides-->
+                <div class="carousel-inner btn-efect " role="listbox">
+                    <!--First slide-->
+                    <div class=" carousel-item active">
+                        <div class="col-md-6 float-left mt-5">
+                            <div class="card mb-2" style="border-radius: 10px ">
+                                <div class="card-body" style="background-image: url('image/sofa.jpg');background-size:600px 285px;background-repeat: no-repeat">
+                                    <h4 class="card-title" style="margin-top: 15px">محصولات پیشنهادی</h4>
+                                    <h4 class="card-title" style="font-family: tani;margin-top: 25px">800تومان</h4>
+                                    <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -38px; margin-right: 102px;">900تومان </del>
+                                    <a class="btn btn-danger text-white px-3" style="border-radius: 10px;margin-top: 75px"> اضافه به سبد خرید</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 float-left mt-5">
+                            <div class="card mb-2" style="border-radius: 10px ">
+                                <div class="card-body" style="background-image: url('image/sofa.jpg');background-size:600px 285px;background-repeat: no-repeat">
+                                    <h4 class="card-title" style="margin-top: 15px">محصولات پیشنهادی</h4>
+                                    <h4 class="card-title" style="font-family: tani;margin-top: 25px">800تومان</h4>
+                                    <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -38px; margin-right: 102px;">900تومان </del>
+                                    <a class="btn btn-danger text-white px-3" style="border-radius: 10px;margin-top: 75px"> اضافه به سبد خرید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.First slide-->
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                        <div class="col-md-6 float-left mt-5">
+                            <div class="card mb-2" style="border-radius: 10px ">
+                                <div class="card-body" style="background-image: url('image/sofa.jpg');background-size:600px 285px;background-repeat: no-repeat">
+                                    <h4 class="card-title" style="margin-top: 15px">محصولات پیشنهادی</h4>
+                                    <h4 class="card-title" style="font-family: tani;margin-top: 25px">800تومان</h4>
+                                    <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -38px; margin-right: 102px;">900تومان </del>
+                                    <a class="btn btn-danger text-white px-3" style="border-radius: 10px;margin-top: 75px"> اضافه به سبد خرید</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 float-left mt-5">
+                            <div class="card mb-2" style="border-radius: 10px ">
+                                <div class="card-body" style="background-image: url('image/sofa.jpg');background-size:600px 285px;background-repeat: no-repeat">
+                                    <h4 class="card-title" style="margin-top: 15px">محصولات پیشنهادی</h4>
+                                    <h4 class="card-title" style="font-family: tani;margin-top: 25px">800تومان</h4>
+                                    <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -38px; margin-right: 102px;">900تومان </del>
+                                    <a class="btn btn-danger text-white px-3" style="border-radius: 10px;margin-top: 75px"> اضافه به سبد خرید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Second slide-->
+                </div>
+                <!--/.Slides-->
+            </div>
+            <div class="row p-3">
+                <div class="col-md-5 btn-efect">
+                    <div class="card mb-2" style="border-radius: 10px ">
+                        <div class="card-body" style="background-image: url('image/sofa.jpg');background-size:550px 285px;background-repeat: no-repeat">
+                            <h6 class="card-title" style="margin-top: 15px">محصول جدید شماره ی دو</h6>
+                            <div class="line"></div>
+                            <h2 class="card-title" style="font-family: yekan;margin-top: 25px">همین حالا تا    <span style="color: red;font-family: sans-serif"> 40% </span> تخفیف</h2>
+                            <a class="btn btn-danger text-white px-3" style="border-radius: 10px;margin-top: 75px">مشاهده</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 btn-efect">
+                    <div class="card mb-2" style="border-radius: 10px ">
+                        <div class="card-body" style="background-image: url('image/sofa.jpg');background-size:640px 285px;background-repeat: no-repeat">
+                            <h6 class="card-title" style="margin-top: 15px">محصول جدید شماره ی یک</h6>
+                            <div class="line"></div>
+                            <h2 class="card-title" style="font-family: yekan;margin-top: 25px">همین حالا تا <span style="color: red;font-family: sans-serif"> 25% </span> تخفیف</h2>
+                            <a class="btn btn-danger text-white px-3" style="border-radius: 10px;margin-top: 75px">مشاهده</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--   --------------------------------mahsoolaat------------------------------- -->
+
+            <div class="mt-5">
+                <h5  style="display: inline">
+                    <strong>
+                        محصولات
+                    </strong>
+                </h5>
+            </div>
+            <div class="container btn-mahsoolat px-0" id="open-close" style="margin-top: 4vw; width: 100%;padding: 0vw;">
+                <div class="container" style="text-align: left;margin-top: -55px">
+                    <p style="display: inline">
+                        <button class="btn btn-outline-danger border-dark showing" type="button" data-toggle="collapse"
+                                data-target="#avvali" aria-expanded="true" aria-controls="avvali">همه ی محصولات</button>
+                        <button class="btn btn-outline-danger border-dark" type="button" data-toggle="collapse"
+                                data-target="#dovvomi" aria-expanded="false" aria-controls="avvali">جدیدترین</button>
+                        <button class="btn btn-outline-danger border-dark " type="button" data-toggle="collapse"
+                                data-target="#sevvomi" aria-expanded="false" aria-controls="avvali">پربازدید</button>
+                    </p>
+                </div>
+
+                <div class="container-fluid mahsoolat" style="padding-right: 0px;padding-left: 0px;margin-top: 17px">
+                    <div class="collapse show" id="avvali" data-parent="#open-close">
+                        <div class="card card-body" style="border: none ">
+                            <div class="row  animated fadeInUp">
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body" style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                        <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+
+                                        <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="dovvomi" data-parent="#open-close">
+                        <div class="card card-body" style="border: none">
+                            <div class="row animated fadeInUp">
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+
+                                        <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+
+                                        <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="sevvomi" data-parent="#open-close">
+                        <div class="card card-body" style="border: none ">
+                            <div class="row  animated fadeInUp">
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body" style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                            <a class="btn btn-dark text-white p-0" style="">-50%</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 float-left mt-3">
+                                    <div class="card mb-2" style="border-radius: 10px ">
+                                        <div class="card-body"style=" ;background-image: url('image/aw18-h-tlbedlmp-off-1098-.png') ; background-size:300px 290px ;background-repeat: no-repeat;border-radius: 10px ;">
+
+                                            <a class="btn btn-danger text-white p-0" style="">new</a>
+                                            <h6 class="card-title" style="margin-top: 175px;text-align: center">محصولات جدید شرکت</h6>
+                                            <h6 class="card-title" style="font-family: tani;font-size: 20px;margin-right: 20px">800000تومان</h6>
+                                            <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 135px;margin-bottom: 0px">900000</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <!-- ----------------------------------porforooshtarina----------------------- -->
+            <div class="container-fluid" style="background-color: #d6d6d6">
+                <div class="container">
+                    <div class="mt-5"style="padding: 100px 10px 20px 10px">
+                        <h5  style="display: inline">
+                            <strong>
+                                پرفروش ترین ها
+                            </strong>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="container btn-mahsoolat" id="open-close-1" style="margin-top: 4vw; width: 100%;padding: 0vw;">
+                    <p style="text-align:left;margin-top: -85px">
+                        <button class="btn btn-outline-danger border-dark showing" type="button" data-toggle="collapse"
+                                data-target="#avvali-1" aria-expanded="true" aria-controls="avvali-1">همه ی محصولات</button>
+                        <button class="btn btn-outline-danger border-dark" type="button" data-toggle="collapse"
+                                data-target="#dovvomi-1" aria-expanded="false" aria-controls="avvali-1">جدیدترین</button>
+                        <button class="btn btn-outline-danger border-dark " type="button" data-toggle="collapse"
+                                data-target="#sevvomi-1" aria-expanded="false" aria-controls="avvali-1">پربازدید</button>
+                    </p>
+                    <div class="container-fluid mahsoolat btn-efect btn-porf" style="padding-right: 0px;padding-left: 0px">
+                        <div class="collapse show" id="avvali-1" data-parent="#open-close-1">
+                            <div class="card card-body " style="border: none;background-color: #d6d6d6">
+                                <div class="row animated fadeInUp">
+                                    <div class="col-md-4 float-left mt-3 ">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/3.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/1.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/2.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/3.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/1.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/3.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="dovvomi-1" data-parent="#open-close-1">
+                            <div class="card card-body" style="border: none; background-color: #d6d6d6">
+                                <div class="row animated fadeInUp">
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/2.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/1.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/2.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/3.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/3.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="sevvomi-1" data-parent="#open-close-1">
+                            <div class="card card-body" style="border: none; background-color: #d6d6d6">
+                                <div class="row animated fadeInUp">
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/3.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/3.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/1.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/1.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/1.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 float-left mt-3">
+                                        <div class="card mb-2" style="border-radius: 10px ">
+                                            <div class="card-body" style="background-color: #efefef;border-radius: 10px;background-image: url('image/2.jpg') ; background-size:350px 240px ;background-repeat: no-repeat;border-radius: 10px ;">
+                                                <h6 class="card-title ml-5" style="margin-top: 50px;text-align: right">پرفروش ترین محصول</h6>
+                                                <h6 class="card-title" style="font-family: tani;font-size: 20px;text-align: right">800000تومان</h6>
+                                                <del style="font-family: tani;color: #5a6268 ; float: right; margin-top: -35px; margin-right: 115px;margin-bottom: 0px">900000</del>
+                                                <a class="btn btn-danger text-white px-4 float-right mb-5" style="font-family: yekan ">اضافه به سبد خرید</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ----------------------axe-tak-paeen-------------------------- -->
+
+            </div>
+            <div class="container" style="margin-top: 100px">
+                <div class="image-tak btn-efect" style="text-align: center;padding: 55px">
+                    <div class="matn">
+                        <h2 style="font-size: 3vw">
+                            محصولات را با تخفیف ویژه خریداری کنید
+                        </h2>
+                        <p style="font-size: 2vw;font-family: tani">ورم ایپسوم متن ساختگی با تولید سادگی نام</p>
+                        <a class="btn btn-danger text-white px-4 mt-2" style="font-family: yekan;border-radius: 10px ">مشاهده ی محصولات</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0" dir="rtl">
+                <div class="row"style="margin-top: 50px">
+                    <div class="col-md-1 mt-5">
+                        <div >
+                            <h5>
+                                <strong>
+                                    بلاگ
+                                </strong>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+
+                    </div>
+                    <div class="col-md-1 btn-efect float-right mt-5" style="margin-right: -18px">
+                        <a class="btn btn-danger text-white px-4 mb-5" style="font-family: yekan ">بیشتر</a>
+                    </div>
+                </div>
+<!--                <div class="row">-->
+<!--                    <div class="col-md-4">-->
+<!--                        <div class="goole">-->
+<!--                            <p class="p-0 d-inline mr-2">22</p>-->
+<!--                            <p class="p-0 d-inline mr-2" style="margin-top: -5px">مهر</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-4">-->
+<!--                        <div class="goole">-->
+<!--                            <p class="p-0 d-inline mr-2">22</p>-->
+<!--                            <p class="p-0 d-inline mr-2" style="margin-top: -5px">مهر</p>-->
+<!--                        </div>-->
+
+<!--                    </div>-->
+<!--                    <div class="col-md-4">-->
+<!--                        <div class="goole">-->
+<!--                            <p class="p-0 d-inline mr-2">22</p>-->
+<!--                            <p class="p-0 d-inline mr-2" style="margin-top: -5px">مهر</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="row ">
+                    <div class="col-md-4 btn-efect">
+                        <div class="card mb-2" style="border-radius: 10px;border-top:none;border-right: none;border-left: none;border-bottom:2px gainsboro solid">
+                            <div class="card-img">
+                                <img src="image/sofa.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="card-body p-0" >
+                                <h6 class="card-title" style=";font-size: 25px">تازه ترین اخبار در بلاگ</h6>
+                                <p class="toosi">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 btn-efect">
+                        <div class="card mb-2" style="border-radius: 10px;border-top:none;border-right: none;border-left: none;border-bottom:2px gainsboro solid">
+                            <div class="card-img">
+                                <img src="image/sofa.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="card-body p-0" >
+                                <h6 class="card-title" style=";font-size: 25px">تازه ترین اخبار در بلاگ</h6>
+                                <p class="toosi">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 btn-efect">
+                        <div class="card mb-2" style="border-radius: 10px;border-top:none;border-right: none;border-left: none;border-bottom:2px gainsboro solid">
+                            <div class="card-img">
+                                <img src="image/sofa.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="card-body p-0" >
+                                <h6 class="card-title" style=";font-size: 25px">تازه ترین اخبار در بلاگ</h6>
+                               <p class="toosi">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <div class="container-fluid bg-danger" dir="rtl" >
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 text-white email" style="text-align: center;font-family: yekan">
+                        <h4 class="mr-5"> برای دریافت کد تخفیف و دریافت اخرین اخبار</h4>
+                        <p class="ml-5">اطفا ایمیل خود را وارد کنید و بروی ثبت کلیک کنید</p>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6" dir="rtl">
+
+                        <div class="justify-content-center p-0"dir="rtl" style="border-radius: 20px">
+                                <form class="card card-sm" style="border-radius: 70px; margin-top: 75px;" >
+                                    <div class="card-body row" style="padding: 0.75rem">
+                                        <div class="col-auto" style="border-radius: 20px">
+                                            <button class="btn btn-lg btn-success px-4" type="submit" style="border-radius:38px;font-size: 12px;padding: 17px">ثبت نام</button>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Enter your Email" style="text-align: left;border-radius: 20px;padding: 0px">
+                                        </div>
+                                    </div>
+                                </form>
+                        </div>
+
+                    </div>
+                </div>
+<!-- -------------------------foooter----------------------- -->
+
+            </div>
+            <div class="container-fluid footer">
+                <div class="row" dir="rtl">
+
+                    <div class="col-md-4 toosi">
+                        <ul class="list-unstyled">
+                            <li class="footer-style" style="color: black"><strong>درباره ی ما</strong></li>
+                            <li style="line-height: 0vw"><br></li>
+                            <p class="toosi">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی</p>
+                        </ul>
+                        <ul class="list-unstyled mt-3" style="line-height: 5px">
+                            <li>
+                                <img src="image/map-marker-alt.svg" alt="">
+                                تهران
+
+                            </li>
+                            <li style="font-family: tani">
+                                <img src="image/phone.svg" alt="">
+                                9885616546465
+
+                            </li>
+                            <li>
+                                <img src="image/envelope.svg" alt="">
+                                info@examplegamil.com
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 toosi">
+                        <ul class="list-unstyled">
+                            <li class="footer-style" style="color: black"><strong>دسترسی سریع</strong></li>
+                            <li style="line-height: 0vw"><br></li>
+                            <li>
+                                محصولات
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                            <li>
+                                محصولات
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                            <li>
+                                محصولات
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                            <li>
+                                محصولات
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 toosi">
+                        <ul class="list-unstyled pic-list-footer">
+                            <li class="footer-style" style="color: black"><strong>دسته بندی ها</strong></li>
+                            <li style="line-height: 0vw"><br></li>
+                            <li>
+                                دسته بندی شماره ی یک
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                            <li>
+                                دسته بندی شماره ی یک
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                            <li>
+                                دسته بندی شماره ی یک
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                            <li>
+                                دسته بندی شماره ی یک
+                                <i class="fas fa-caret-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <hr>
+                </div>
+                <div class="line-footer mt-5">
+                </div>
+                <div class="container button-bott">
+                    <button type="button" class="btn btn-outline-dark col-sm top-btn"><a href=""><img src="image/arrow-up.svg" style="width: 1vw" alt=""></a></button>
+                </div>
+                <div class="p-3 mt-n4 pb-5">
+                    <img style="width: 15px;margin-right: 100px" src="image/instagram.svg" alt="">
+                    <p class="float-left ml-5 toosi">تمام حقوق این وبسایت به این وبسایت تعلق دارد</p>
+                    <br>
+                </div>
+
+
+
+
+            </div>
+        </section>
+    </section>
+</div>
+</div>
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+<!--**********scripts**********-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: yekan;
+    src: url("font/Yekan.woff") format('woff') ;
+}
+@font-face {
+    font-family: tani;
+    src: url('./font/Tanha-FD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+font-family: yekan;
+}
+nav {
+    direction: rtl;
+}
+nav img {
+    width: 20px;
+    margin-left: 5px;
+    opacity: 0.5;
+
+}
+.search {
+    margin-top: 30px ;
+}
+.sabad-kharid {
+    height:auto;
+    width: auto;
+    margin-right: 150px;
+}
+.prep-search button{
+    border-right: black;
+
+}
+.input-group-append span{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.car-icon .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: white; !important;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 30px;
+    color: black;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 30px;
+    color: black;
+}
+.num-3{
+    text-align: right;
+    margin-top: 50px;
+}
+/*--------------------util------------*/
+.tarikh {
+    background-color: black;
+    color: white;
+    font-family: yekan;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
